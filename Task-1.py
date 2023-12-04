@@ -32,7 +32,7 @@ for i in range(n):
         maximum_summa = summa
         index = i
 print('Cтрока с максимальной суммой')
-for element in matrix[i]:
+for element in matrix[index]:
      print(element, end=' ')
 print()
 print(f'Максимальная сумма - {maximum_summa}')
